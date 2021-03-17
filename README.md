@@ -1,3 +1,3 @@
 # ScrollingText
 ### App screenshot
-![](./lab3_task1ss.png)
+![](./lab3_task2ss.png)
