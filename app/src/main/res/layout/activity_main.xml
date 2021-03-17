@@ -17,19 +17,25 @@
         android:textColor="@android:color/darker_gray"
         android:textStyle="bold" />
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical ">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/article_subheading"
-        android:layout_below="@+id/article_heading"
         android:padding="@dimen/padding_regular"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault"
         android:text="@string/article_subtitle"/>
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/article_subheading">
+
 
     <TextView
         android:id="@+id/article"
@@ -38,6 +44,8 @@
         android:lineSpacingExtra="@dimen/line_spacing"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_text" />
+
+    </LinearLayout>
 
     </ScrollView>
 
